@@ -1,4 +1,5 @@
-﻿namespace SR_Test
+﻿//No need to edit this script
+namespace SR_Test
 {
     partial class Form1
     {
@@ -38,7 +39,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(149, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "음성 인식 프로그램 테스트";
+            this.label1.Text = "Speech Recognition Test \nReady to listen";
             // 
             // Form1
             // 
