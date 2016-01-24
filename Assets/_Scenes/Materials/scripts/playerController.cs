@@ -18,5 +18,10 @@ public class playerController : MonoBehaviour {
 		Vector3 movement = new Vector3(moveHorizontal,0,moveVertical);
 		
 		rb.AddForce(movement*speed);
-	}
+
+		// anne - jump the ball
+		if (Input.GetKeyDown(KeyCode.Space)) {
+			rb.AddForce(Vector3.up * 150);
+		}
+    }
 }
