@@ -3,7 +3,7 @@ guid: c598b67f857364b84a5db7e2d35bef8d
 timeCreated: 1453143810
 licenseType: Free
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: _1
     100002: Bathtub_60x32_1
@@ -897,6 +897,128 @@ ModelImporter:
     4300238: Mesh120
     4300240: Mesh121
     4300242: Mesh122
+    6400000: Mesh1
+    6400002: Mesh10
+    6400004: Mesh100
+    6400006: Mesh101
+    6400008: Mesh102
+    6400010: Mesh103
+    6400012: Mesh104
+    6400014: Mesh105
+    6400016: Mesh106
+    6400018: Mesh107
+    6400020: Mesh108
+    6400022: Mesh109
+    6400024: Mesh11
+    6400026: Mesh110
+    6400028: Mesh111
+    6400030: Mesh112
+    6400032: Mesh113
+    6400034: Mesh114
+    6400036: Mesh115
+    6400038: Mesh116
+    6400040: Mesh117
+    6400042: Mesh118
+    6400044: Mesh119
+    6400046: Mesh12
+    6400048: Mesh120
+    6400050: Mesh121
+    6400052: Mesh122
+    6400054: Mesh13
+    6400056: Mesh14
+    6400058: Mesh15
+    6400060: Mesh16
+    6400062: Mesh17
+    6400064: Mesh18
+    6400066: Mesh19
+    6400068: Mesh2
+    6400070: Mesh20
+    6400072: Mesh21
+    6400074: Mesh22
+    6400076: Mesh23
+    6400078: Mesh24
+    6400080: Mesh25
+    6400082: Mesh26
+    6400084: Mesh27
+    6400086: Mesh28
+    6400088: Mesh29
+    6400090: Mesh3
+    6400092: Mesh30
+    6400094: Mesh31
+    6400096: Mesh32
+    6400098: Mesh33
+    6400100: Mesh34
+    6400102: Mesh35
+    6400104: Mesh36
+    6400106: Mesh37
+    6400108: Mesh38
+    6400110: Mesh39
+    6400112: Mesh4
+    6400114: Mesh40
+    6400116: Mesh41
+    6400118: Mesh42
+    6400120: Mesh43
+    6400122: Mesh44
+    6400124: Mesh45
+    6400126: Mesh46
+    6400128: Mesh47
+    6400130: Mesh48
+    6400132: Mesh49
+    6400134: Mesh5
+    6400136: Mesh50
+    6400138: Mesh51
+    6400140: Mesh52
+    6400142: Mesh53
+    6400144: Mesh54
+    6400146: Mesh55
+    6400148: Mesh56
+    6400150: Mesh57
+    6400152: Mesh58
+    6400154: Mesh59
+    6400156: Mesh6
+    6400158: Mesh60
+    6400160: Mesh61
+    6400162: Mesh62
+    6400164: Mesh63
+    6400166: Mesh64
+    6400168: Mesh65
+    6400170: Mesh66
+    6400172: Mesh67
+    6400174: Mesh68
+    6400176: Mesh69
+    6400178: Mesh7
+    6400180: Mesh70
+    6400182: Mesh71
+    6400184: Mesh72
+    6400186: Mesh73
+    6400188: Mesh74
+    6400190: Mesh75
+    6400192: Mesh76
+    6400194: Mesh77
+    6400196: Mesh78
+    6400198: Mesh79
+    6400200: Mesh8
+    6400202: Mesh80
+    6400204: Mesh81
+    6400206: Mesh82
+    6400208: Mesh83
+    6400210: Mesh84
+    6400212: Mesh85
+    6400214: Mesh86
+    6400216: Mesh87
+    6400218: Mesh88
+    6400220: Mesh89
+    6400222: Mesh9
+    6400224: Mesh90
+    6400226: Mesh91
+    6400228: Mesh92
+    6400230: Mesh93
+    6400232: Mesh94
+    6400234: Mesh95
+    6400236: Mesh96
+    6400238: Mesh97
+    6400240: Mesh98
+    6400242: Mesh99
   materials:
     importMaterials: 1
     materialName: 0
@@ -904,6 +1026,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -911,9 +1034,9 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
@@ -922,7 +1045,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -937,24 +1060,25 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
