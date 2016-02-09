@@ -19,7 +19,6 @@ public class playerController : MonoBehaviour {
 		
 		rb.AddForce(movement*speed);
 
-		// anne - jump the ball
 		if (Input.GetKeyDown(KeyCode.Space)) {
 			rb.AddForce(Vector3.up * 150);
 		}
